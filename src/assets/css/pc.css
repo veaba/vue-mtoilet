@@ -1,0 +1,174 @@
+
+@font-face {
+    font-family: PangMenZhengDao;
+    src: url(https://cdn.api.wanzi.cn/weapp/icon/PangMenZhengDao.ttf);
+    font-weight: 400;
+    font-size:inherit}
+
+html {
+    font-size: 16px
+}
+
+#app {
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50
+}
+
+#app,body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    background: #111
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+a,a:active,a:hover,a:link,a:visited {
+    color: #999
+}
+
+.main-container {
+    background-color: #111;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.pagetwo-img-wrapper {
+    position: absolute;
+    right: 9.8%;
+    top: 6.3%;
+    max-height: 70%;
+    max-width: 22.4%
+}
+.page-two {
+    width: 100%;
+    height: 433px;
+    background-image: url(https://cdn.api.wanzi.cn/weapp/icon/mobile/page2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px
+}
+.page-two .page2-pic {
+    width: 208px;
+    height: auto
+}
+
+.pagetwo-left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 18%;
+    left: 8.3%
+}
+
+.page-three {
+    width: 100%;
+    height: 433px;
+    background-image: url(https://cdn.api.wanzi.cn/weapp/icon/mobile/page3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px
+}
+.pagethree-left {
+    position: absolute;
+    max-height: 70%;
+    max-width: 22.4%;
+    top: 6.23%;
+    left: 11.4%
+}
+
+.pagethree-right {
+    position: absolute;
+    top: 21.7%;
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.page-four {
+    width: 100%;
+    height: 433px;
+    background-image: url(https://cdn.api.wanzi.cn/weapp/icon/mobile/page4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+.pagefour-left {
+    top: 30%;
+    left: 8.22%;
+    width: 8.66rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.pagefour-right {
+    position: absolute;
+    max-height: 70%;
+    max-width: 22.4%;
+    top: 6.23%;
+    right: 9.5%
+}
+
+/*.title {*/
+    /*width: auto;*/
+    /*height: .86rem;*/
+    /*font-size: .61rem;*/
+    /*font-weight: 600;*/
+    /*line-height: .86rem*/
+/*}*/
+
+.sub-title,.title {
+    font-family: PingFangSC-Regular,sans-serif;
+    color: #fff
+}
+
+.sub-title {
+    width: 4.82rem;
+    height: .33rem;
+    font-size: .24rem;
+    font-weight: 400;
+    line-height: .33rem;
+    margin-top: .34rem
+}
+
+.divide-line {
+    background-color: #fff;
+    width: 2px;
+    height: 30px;
+    margin: 0 64px
+}
